@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "47C1266C1CC4CFC000D346F9"
+               BuildableName = "PT_4SwiftProject.app"
+               BlueprintName = "PT_4SwiftProject"
+               ReferencedContainer = "container:PT_4SwiftProject.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "47C126801CC4CFC000D346F9"
+               BuildableName = "PT_4SwiftProjectTests.xctest"
+               BlueprintName = "PT_4SwiftProjectTests"
+               ReferencedContainer = "container:PT_4SwiftProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "47C1268B1CC4CFC000D346F9"
+               BuildableName = "PT_4SwiftProjectUITests.xctest"
+               BlueprintName = "PT_4SwiftProjectUITests"
+               ReferencedContainer = "container:PT_4SwiftProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "47C1266C1CC4CFC000D346F9"
+            BuildableName = "PT_4SwiftProject.app"
+            BlueprintName = "PT_4SwiftProject"
+            ReferencedContainer = "container:PT_4SwiftProject.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "47C1266C1CC4CFC000D346F9"
+            BuildableName = "PT_4SwiftProject.app"
+            BlueprintName = "PT_4SwiftProject"
+            ReferencedContainer = "container:PT_4SwiftProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "47C1266C1CC4CFC000D346F9"
+            BuildableName = "PT_4SwiftProject.app"
+            BlueprintName = "PT_4SwiftProject"
+            ReferencedContainer = "container:PT_4SwiftProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
