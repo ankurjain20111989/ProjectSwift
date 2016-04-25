@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D586A51CCE539F0038975B /* GroupSelectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D586A41CCE539F0038975B /* GroupSelectionController.xib */; };
 		47C126711CC4CFC000D346F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C126701CC4CFC000D346F9 /* AppDelegate.swift */; };
 		47C126731CC4CFC000D346F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C126721CC4CFC000D346F9 /* ViewController.swift */; };
 		47C126761CC4CFC000D346F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C126741CC4CFC000D346F9 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D586A41CCE539F0038975B /* GroupSelectionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GroupSelectionController.xib; path = ../../../Documents/TagAlone/GroupSelectionController.xib; sourceTree = "<group>"; };
 		47C1266D1CC4CFC000D346F9 /* PT_4SwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PT_4SwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C126701CC4CFC000D346F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47C126721CC4CFC000D346F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		47C1266F1CC4CFC000D346F9 /* PT_4SwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				06D586A41CCE539F0038975B /* GroupSelectionController.xib */,
 				47C126701CC4CFC000D346F9 /* AppDelegate.swift */,
 				47C126721CC4CFC000D346F9 /* ViewController.swift */,
 				47C126741CC4CFC000D346F9 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D586A51CCE539F0038975B /* GroupSelectionController.xib in Resources */,
 				47C1267B1CC4CFC000D346F9 /* LaunchScreen.storyboard in Resources */,
 				47C126781CC4CFC000D346F9 /* Assets.xcassets in Resources */,
 				47C126761CC4CFC000D346F9 /* Main.storyboard in Resources */,
@@ -482,6 +486,7 @@
 				47C126971CC4CFC000D346F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47C126981CC4CFC000D346F9 /* Build configuration list for PBXNativeTarget "PT_4SwiftProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				47C1269A1CC4CFC000D346F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47C1269B1CC4CFC000D346F9 /* Build configuration list for PBXNativeTarget "PT_4SwiftProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				47C1269D1CC4CFC000D346F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
