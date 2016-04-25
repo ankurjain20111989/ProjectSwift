@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067C52C61CCE634900B101AE /* DineSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067C52C51CCE634900B101AE /* DineSearch.xib */; };
 		06D586A51CCE539F0038975B /* GroupSelectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D586A41CCE539F0038975B /* GroupSelectionController.xib */; };
 		47C126711CC4CFC000D346F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C126701CC4CFC000D346F9 /* AppDelegate.swift */; };
 		47C126731CC4CFC000D346F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C126721CC4CFC000D346F9 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067C52C51CCE634900B101AE /* DineSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DineSearch.xib; sourceTree = "<group>"; };
 		06D586A41CCE539F0038975B /* GroupSelectionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GroupSelectionController.xib; path = ../../../Documents/TagAlone/GroupSelectionController.xib; sourceTree = "<group>"; };
 		47C1266D1CC4CFC000D346F9 /* PT_4SwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PT_4SwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C126701CC4CFC000D346F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		47C1266F1CC4CFC000D346F9 /* PT_4SwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				067C52C51CCE634900B101AE /* DineSearch.xib */,
 				06D586A41CCE539F0038975B /* GroupSelectionController.xib */,
 				47C126701CC4CFC000D346F9 /* AppDelegate.swift */,
 				47C126721CC4CFC000D346F9 /* ViewController.swift */,
@@ -236,6 +239,7 @@
 				47C1267B1CC4CFC000D346F9 /* LaunchScreen.storyboard in Resources */,
 				47C126781CC4CFC000D346F9 /* Assets.xcassets in Resources */,
 				47C126761CC4CFC000D346F9 /* Main.storyboard in Resources */,
+				067C52C61CCE634900B101AE /* DineSearch.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
